@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test jest",
+    "test": "jest",
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "prettier": "pretty-quick --staged",
@@ -28,7 +28,8 @@
   },
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3"
   },
   "lint-staged": {
     "src/**/*.{js,json}": [

@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     'prettier/prettier': ['error', {}, { usePrettierrc: true }], // Use our .prettierrc file as source
     'no-console': 1,
+    'linebreak-style': 0,
   },
   parserOptions: {
     ecmaVersion: 12,
